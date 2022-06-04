@@ -1,0 +1,19 @@
+svg.floor-plan{
+    background: rgb(205, 238, 211);
+    path{
+        fill: rgb(46, 77, 46);
+        &:hover{
+            fill: rgb(176, 190, 137);
+            cursor: pointer;
+        }
+    }
+}
+
+
+.progressContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 50vh;
+    align-items: center;
+}
